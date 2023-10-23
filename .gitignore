@@ -1,0 +1,5 @@
+volumes/firebase/google-services.json
+volumes/keystore/keystore.jks
+volumes/builds/
+!volumes/builds/.empty
+.env

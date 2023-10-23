@@ -1,0 +1,10 @@
+version: "3.8"
+
+services:
+  android:
+    image: cimg/android:2023.10-ndk
+    command: "bash /volumes/script.sh"
+    env_file:
+      - .env
+    volumes:
+      - ./volumes:/volumes
